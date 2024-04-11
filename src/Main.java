@@ -10,15 +10,16 @@ public class Main {
 
         int opcao;
         do {
-            System.out.println("Menu:");
-            System.out.println("1 - Incluir");
-            System.out.println("2 - Alterar");
-            System.out.println("3 - Excluir");
-            System.out.println("4 - Exibir pelo ID");
+            System.out.println("==================================");
+            System.out.println("1 - Incluir Pessoa");
+            System.out.println("2 - Alterar Pessoa");
+            System.out.println("3 - Excluir Pessoa");
+            System.out.println("4 - Buscar pelo ID");
             System.out.println("5 - Exibir todos");
-            System.out.println("6 - Salvar dados");
+            System.out.println("6 - Persistir dados");
             System.out.println("7 - Recuperar dados");
-            System.out.println("0 - Finalizar");
+            System.out.println("0 - Finalizar Programa");
+            System.out.println("==================================");
             System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
             scanner.nextLine();
@@ -99,7 +100,7 @@ public class Main {
                     }
                     break;
                 case 5:
-                    System.out.println("Exibir pelo ID:");
+                    System.out.println("Exibir Todos:");
                     System.out.println("1 - Pessoa Física");
                     System.out.println("2 - Pessoa Jurídica");
                     System.out.print("Escolha o tipo (1 ou 2): ");
